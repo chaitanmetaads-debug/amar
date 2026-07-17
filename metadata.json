@@ -1,0 +1,6 @@
+{
+  "name": "Samarth Multispeciality Clinic",
+  "description": "Ultra-premium surgical and advanced healthcare services by Dr. Amar Shinde (Gold Medalist Surgeon) & Dr. Shruti Shinde.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
