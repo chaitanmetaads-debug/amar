@@ -64,6 +64,9 @@ app.post("/api/book", async (req, res) => {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
+            "Origin": req.get("origin") || "http://localhost:3000",
+            "Referer": req.get("referer") || "http://localhost:3000/",
+            "User-Agent": req.get("user-agent") || "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
           },
           body: JSON.stringify({
             service_id: emailjsServiceId,
